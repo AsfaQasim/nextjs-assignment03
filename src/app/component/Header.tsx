@@ -12,8 +12,6 @@ export default function Header() {
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <span className="ml-3 text-xl">My Flower Shop</span>
           </a>
-          
-         
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 md:hidden focus:outline-none"
